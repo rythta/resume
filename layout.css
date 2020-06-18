@@ -1,0 +1,51 @@
+.resume {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 100%;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.sidebar {
+    display: flex;
+    align-items: flex-start;
+    background-color: darkgreen;
+    flex-direction: column;
+    flex: 2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.headshot {
+    flex: 1;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkgreen;
+}
+
+.info {
+    flex: 5;
+}
+
+.name {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkgreen;
+}
