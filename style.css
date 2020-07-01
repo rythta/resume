@@ -6,12 +6,10 @@ html {
 body {
     background-color: #14331a;
     color: #d8e0d7;
-    margin: 0%;
 }
 
 h1 {
-    margin: 5%;
-    margin-top: 0%;
+    margin: 0%;
     align-self: center;
     text-align: center;
 }
