@@ -1,15 +1,13 @@
 html {
-    font-size: 2em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-
-@media(min-width:1000px){html{font-size:1em}}
 
 body {
     background-color: #dae0e6;
     color: #191919;
     margin: 10px;
     text-align: justify;
+    font-size: 1.8vh;
 }
 
 a {
