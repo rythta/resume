@@ -4,137 +4,156 @@
   <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 <body>
-  <div class="resume">
-    <div class="sidebar"> 
-      <div class="content" style="width:100%;height:100%;margin-bottom:5%;justify-content:space-between;">
-	<div class="content">
-	  <div style="border-left: solid;border-width: 1px;border-bottom-left-radius: 5px;">
-	    <h1>Ryan Taylor</h1>
-	    <p>Senior computer engineering student at the University of California at Santa Cruz. Expertise in low level programming. Avid cyclist, bibliophile and linux hobbyist. Excited for an opportunity to employ coursework in a practical setting.</p>
-	  </div>
-	</div>
-	<div class="content" style="margin-top: 2%">
-	  <div style="border-left: solid;border-width: 1px;">
-	    <h2 style="background:#14331a;color:#d8e0d7;">Skills</h2>
-	    <div class="entry">
-	      <h3 style="width:50%;">Linux</h3>
-	      <p class="description">Proficient</p>
-	      <div class="rating">
-		<div class="rating-bar" style="width:75%"></div>
-	      </div>
-	      <h3 style="width:50%;">Embedded</h3>
-	      <p class="description">Proficient</p>
-	      <div class="rating">
-		<div class="rating-bar" style="width:75%"></div>
-	      </div>
-	      <h3 style="width:50%;">Emacs</h3>
-	      <p class="description">Proficient</p>
-	      <div class="rating">
-		<div class="rating-bar" style="width:75%"></div>
-	      </div>
+  <div class="row" style="flex-wrap: wrap">
+    <div class="column spread" id="card" style="flex: 2">
+      <div class="column">
+	<h1>Ryan Taylor</h1>
+	<p>Senior computer engineering student at the University of California at Santa Cruz. Expertise in low level programming. Avid cyclist, bibliophile and linux hobbyist. Excited for an opportunity to employ coursework in a practical setting.</p>
+      </div>
+      <div class="column">
+	<h2>Skills</h2>
+	<div class="row spread">
+	  <h3 class="fill">Linux</h3>
+	  <div class="column fill">
+	    <p class="description">Proficient</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:75%"></div>
+	      <div class="bar-empty"></div>
 	    </div>
 	  </div>
-	  <div class="entry">
-	    <h3 style="width:50%;border-left: solid;border-width: 1px;">Web Dev.</h3>
+	</div>
+	<div class="row spread">
+	  <h3 class="fill">Embedded</h3>
+	  <div class="column fill">
+	    <p class="description">Proficient</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:75%"></div>
+	      <div class="bar-empty"></div>
+	    </div>
+	  </div>
+	</div>
+	<div class="row spread">
+	  <h3 class="fill">Emacs</h3>
+	  <div class="column fill">
+	    <p class="description">Proficient</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:75%"></div>
+	      <div class="bar-empty"></div>
+	    </div>
+	  </div>
+	</div>
+	<div class="row spread">
+	  <h3 class="fill">Web Dev.</h3>
+	  <div class="column fill">
 	    <p class="description">Good</p>
-	    <div class="rating">
-	      <div class="rating-bar" style="width:50%"></div>
+	    <div class="row">
+	      <div class="bar-filled" style="width:50%"></div>
+	      <div class="bar-empty"></div>
 	    </div>
 	  </div>
-	</div>
-	<div class="content" style="margin-top: 2%">
-	  <div style="border-left: solid;border-width: 1px;">
-	    <h2 style="background:#14331a;color:#d8e0d7">Programming Languages</h2>
-	    <div class="entry">
-	      <h3 style="width:50%;">C</h3>
-	      <p class="description">Excellent</p>
-	      <div class="rating">
-		<div class="rating-bar" style="width:100%"></div>
-	      </div>
-	      <h3 style="width:50%;">Java</h3>
-	      <p class="description">Proficient</p>
-	      <div class="rating">
-		<div class="rating-bar" style="width:75%"></div>
-	      </div>
-	      <h3 style="width:50%;">Latex</h3>
-	      <p class="description">Proficient</p>
-	      <div class="rating">
-		<div class="rating-bar" style="width:75%"></div>
-	      </div>
-	      <h3 style="width:50%;">Verilog</h3>
-	      <p class="description">Good</p>
-	      <div class="rating">
-		<div class="rating-bar" style="width:50%"></div>
-	      </div>
-	    </div>
-	  </div>
-	  <div class="entry">
-	    <h3 style="width:50%;border-left: solid;border-width: 1px;">HTML/CSS/JS</h3>
-	    <p class="description">Good</p>
-	    <div class="rating">
-	      <div class="rating-bar" style="width:50%"></div>
-	    </div>
-	  </div>
-	</div>
-	<div class="clump">
-	  <a href="tel:949-677-4653" style="margin-bottom: 1%;">
-	    <div class="entry" style="align-items:center">
-	      <img src="cell.svg"id="icon"></img>
-	      <p style="margin: auto">[949]677-4653</p>
-	    </div>
-	  </a>
-	  <a href="https://goo.gl/maps/SxQab1EsgJagh7JP7" target="_blank" style="margin-bottom: -1%;">
-	    <div class="entry">
-	      <img src="location.svg" id="icon"></img>
-	      <p style="margin: auto">Santa Cruz, CA</p>
-	    </div>
-	  </a>
-	  <a href="mailto: rythtayl@gmail.com">
-	    <div class="entry">
-	      <img src="email.svg" id="icon"></img>
-	      <p style="margin: auto">rythtayl@gmail.com</p>
-	    </div>
-	  </a>
-	  <a href="https://www.linkedin.com/in/ryan-taylor-107a45158" target="_blank">
-	    <div class="entry" style="flex-wrap:nowrap">
-	      <img src="LI-In-Bug.png" id="icon" style="transform: translate(8%, -2px);"></img>
-	      <p style="margin: auto">linkedin.com/in/rythta</p>
-	    </div>
-	  </a>
-	  <a href="https://github.com/rythta" target="_blank" style="margin-bottom: -4%">
-	    <div class="entry" style="flex-wrap:nowrap">
-	      <img src="git-logo2.svg" id="icon"></img>
-	      <p style="margin: auto">github.com/rythta</p>
-	    </div>
-	  </a>
 	</div>
       </div>
+      <div class="column">
+	<h2>Programming Languages</h2>
+	<div class="row spread">
+	  <h3 class="fill">Linux</h3>
+	  <div class="column fill">
+	    <p class="description">Proficient</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:75%"></div>
+	      <div class="bar-empty"></div>
+	    </div>
+	  </div>
+	</div>
+	<div class="row spread">
+	  <h3 class="fill">Embedded</h3>
+	  <div class="column fill">
+	    <p class="description">Proficient</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:75%"></div>
+	      <div class="bar-empty"></div>
+	    </div>
+	  </div>
+	</div>
+	<div class="row spread">
+	  <h3 class="fill">Emacs</h3>
+	  <div class="column fill">
+	    <p class="description">Proficient</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:75%"></div>
+	      <div class="bar-empty"></div>
+	    </div>
+	  </div>
+	</div>
+	<div class="row spread">
+	  <h3 class="fill">Web Dev.</h3>
+	  <div class="column fill">
+	    <p class="description">Good</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:50%"></div>
+	      <div class="bar-empty"></div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <div class="column">
+	<a href="tel:949-677-4653">
+	  <div class="row">
+	    <img src="cell.svg"></img>
+	    <p class="link-info">[949]677-4653</p>
+	  </div>
+	</a>
+	<a href="https://goo.gl/maps/SxQab1EsgJagh7JP7" target="_blank">
+	  <div class="row">
+	    <img src="location.svg"></img>
+	    <p class="link-info">Santa Cruz, CA</p>
+	  </div>
+	</a>
+	<a href="mailto: rythtayl@gmail.com">
+	  <div class="row">
+	    <img src="email.svg"></img>
+	    <p class="link-info">rythtayl@gmail.com</p>
+	  </div>
+	</a>
+	<a href="https://www.linkedin.com/in/ryan-taylor-107a45158" target="_blank">
+	  <div class="row">
+	    <img src="LI-In-Bug.png" style="width:16px;height:14px;"></img>
+	    <p class="link-info">linkedin.com/in/rythta</p>
+	  </div>
+	</a>
+	<a href="https://github.com/rythta" target="_blank">
+	  <div class="row">
+	    <img src="git-logo.svg" style="width:16px"</img>
+	    <p class="link-info">github.com/rythta</p>
+	  </div>
+	</a>
+      </div>
     </div>
-    <div class="content" style="justify-content:space-between">
-      <div class="content" style="border-left: solid;border-width: 1px; margin-bottom: 1%; border-bottom-left-radius: 5px">
+    <div class="column" style="flex: 5;">
+      <div class="column" id="card">
 	<h2>Experience</h2>
-	<h3>Embedded Linux Lead - NASA's Student Launch Initiative (SLI)</h3>
+	<h3>Embedded Linux Lead - NASA&#39s Student Launch Initiative (SLI)</h3>
 	<h4>2018 - 2019</h4>
-	<p>Competed in NASA's 2019 Student Launch Initiative with the UCSC Rocket Team. Configured multiple Linux based microcontrollers for use in the Adaptive Aerobraking System.</p>
+	<p>Competed in NASA&#39s 2019 Student Launch Initiative with the UCSC Rocket Team. Configured multiple Linux based microcontrollers for use in the Adaptive Aerobraking System.</p>
 	<h3>Outreach Team Member - UCSC Rocket Team</h3>
 	<h4>2018 - 2019</h4>
-	<p>Helped design and lead an interactive presentation on the Rocket Team to over 200 members of the Santa Cruz community. The presentation fulfilled NASA's SLI requirement to cultivate community interest in space exploration.</p>
+	<p>Helped design and lead an interactive presentation on the Rocket Team to over 200 members of the Santa Cruz community. The presentation fulfilled NASA&#39s SLI requirement to cultivate community interest in space exploration.</p>
 	<h3>Market Research Analyst - Pedego Electric Bikes</h3>
 	<h4>2015 - 2016</h4>
 	<p>Collected, analysed and presented data that guided future marketing decisions.</p>
 	<h3>Eagle Scout - Boy Scouts of America</h3>
 	<h4>2008 - 2016</h4>
-	<p>Learned teambuilding and leadership skills while exploring the great outdoors. Earned the prestigous rank of Eagle in 2016.</p>
+	<p>Designed and organized the installation of sapling support structures for a non-profit nursery. Coordinated and ensured safe working conditions during the 144 volunteer hours that the project generated.</p>
       </div>
-      <div class="content" style="border-left: solid;border-width: 1px; margin-bottom: 1%; border-bottom-left-radius: 5px">
+      <div class="column" id="card">
 	<h2>Education</h2>
 	<h3>University of California, Santa Cruz</h3>
 	<h4>2017 - 2021</h4>
 	<p>Bachelors of Science in computer engineering with a focus in computer systems.</p>
 	<h3>Coursework</h3>
-	<p>MIPS PIC x86 RISCV assembly, differential calculus, integral calculus, vector calculus, linear algebra, differential equations, discrete math, probability, statistics, computer architecture, microprocessor systems design, logic design in verilog, data structures, algorithms, mechanics, waves, optics, electricity, magnetism, fundamentals of electrical engineering, technical writing</p>
+	<p>MIPS PIC x86 RISCV assembly, differential calculus, integral calculus, vector calculus, linear algebra, differential equations, discrete math, probability, statistics, computer architecture, microprocessor systems design, logic design in verilog, data structures, algorithms, mechanics, waves, optics, electricity and magnetism, fundamentals of electrical engineering, technical writing</p>
       </div>
-      <div class="content" style="border-left: solid;border-width: 1px; border-bottom-left-radius: 5px">
+      <div class="column" id="card">
 	<h2>Interests</h2>
 	<h3>Arm Linux</h3>
 	<p>Member of the Pine64 Arm Linux community. Enjoys tweaking the GNU/Linux operating system for use on various Pine64 devices.</p>
@@ -145,4 +164,5 @@
       </div>
     </div>
   </div>
+</div>
 </body>

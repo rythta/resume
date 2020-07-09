@@ -7,39 +7,39 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="cell.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   width="16.0px"
-   height="16.0px"
-   viewBox="0 0 16.0 16.0"
+   id="SVGRoot"
    version="1.1"
-   id="SVGRoot">
+   viewBox="0 0 16.0 16.0"
+   height="16.0px"
+   width="16.0px"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="cell2.svg">
   <defs
      id="defs857" />
   <sodipodi:namedview
-     inkscape:lockguides="false"
-     showguides="false"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="715"
-     inkscape:window-width="1366"
-     showgrid="true"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="8.4205329"
-     inkscape:cx="6.7772076"
-     inkscape:zoom="32.8125"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base">
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="32.8125"
+     inkscape:cx="6.7772076"
+     inkscape:cy="8.4205329"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:lockguides="false">
     <inkscape:grid
-       type="xygrid"
-       id="grid866" />
+       id="grid866"
+       type="xygrid" />
   </sodipodi:namedview>
   <metadata
      id="metadata860">
@@ -54,16 +54,16 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <rect
-       ry="2"
-       y="0"
-       x="3"
-       height="16"
-       width="10"
+       style="fill:#191919;fill-opacity:1"
        id="rect1512"
-       style="fill:#14331a;fill-opacity:1" />
+       width="10"
+       height="16"
+       x="3"
+       y="0"
+       ry="2" />
   </g>
 </svg>
