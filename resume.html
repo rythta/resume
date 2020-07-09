@@ -4,13 +4,13 @@
   <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 <body>
-  <div class="row" style="flex-wrap: wrap">
-    <div class="column spread" id="card" style="flex: 2">
-      <div class="column">
+  <div class="row" style="flex-wrap: wrap; height: 100%">
+    <div class="column spread"style="flex: 2">
+      <div class="column" id="card">
 	<h1>Ryan Taylor</h1>
 	<p>Senior computer engineering student at the University of California at Santa Cruz. Expertise in low level programming. Avid cyclist, bibliophile and linux hobbyist. Excited for an opportunity to employ coursework in a practical setting.</p>
       </div>
-      <div class="column">
+      <div class="column" id="card">
 	<h2>Skills</h2>
 	<div class="row spread">
 	  <h3 class="fill">Linux</h3>
@@ -53,10 +53,20 @@
 	  </div>
 	</div>
       </div>
-      <div class="column">
+      <div class="column" id="card">
 	<h2>Programming Languages</h2>
 	<div class="row spread">
-	  <h3 class="fill">Linux</h3>
+	  <h3 class="fill">C</h3>
+	  <div class="column fill">
+	    <p class="description">Excellent</p>
+	    <div class="row">
+	      <div class="bar-filled" style="width:100%"></div>
+	      <div class="bar-empty"></div>
+	    </div>
+	  </div>
+	</div>
+	<div class="row spread">
+	  <h3 class="fill">Java</h3>
 	  <div class="column fill">
 	    <p class="description">Proficient</p>
 	    <div class="row">
@@ -66,7 +76,7 @@
 	  </div>
 	</div>
 	<div class="row spread">
-	  <h3 class="fill">Embedded</h3>
+	  <h3 class="fill">Latex</h3>
 	  <div class="column fill">
 	    <p class="description">Proficient</p>
 	    <div class="row">
@@ -76,17 +86,17 @@
 	  </div>
 	</div>
 	<div class="row spread">
-	  <h3 class="fill">Emacs</h3>
+	  <h3 class="fill">Verilog</h3>
 	  <div class="column fill">
-	    <p class="description">Proficient</p>
+	    <p class="description">Good</p>
 	    <div class="row">
-	      <div class="bar-filled" style="width:75%"></div>
+	      <div class="bar-filled" style="width:50%"></div>
 	      <div class="bar-empty"></div>
 	    </div>
 	  </div>
 	</div>
 	<div class="row spread">
-	  <h3 class="fill">Web Dev.</h3>
+	  <h3 class="fill">HTML/CSS/JS</h3>
 	  <div class="column fill">
 	    <p class="description">Good</p>
 	    <div class="row">
@@ -96,7 +106,7 @@
 	  </div>
 	</div>
       </div>
-      <div class="column">
+      <div class="column" id="card">
 	<a href="tel:949-677-4653">
 	  <div class="row">
 	    <img src="cell.svg"></img>
@@ -129,18 +139,21 @@
 	</a>
       </div>
     </div>
-    <div class="column" style="flex: 5;">
+    <div class="column spread" style="flex: 5;">
       <div class="column" id="card">
 	<h2>Experience</h2>
+	<h3>Market Research Analyst - Pedego Electric Bikes</h3>
+	<h4>2015 - 2016</h4>
+	<p>Collected, analysed and presented data that guided future marketing decisions.</p>
+      </div>
+      <div class="column" id="card">
+	<h2>Extracurriculars</h2>
 	<h3>Embedded Linux Lead - NASA&#39s Student Launch Initiative (SLI)</h3>
 	<h4>2018 - 2019</h4>
 	<p>Competed in NASA&#39s 2019 Student Launch Initiative with the UCSC Rocket Team. Configured multiple Linux based microcontrollers for use in the Adaptive Aerobraking System.</p>
 	<h3>Outreach Team Member - UCSC Rocket Team</h3>
 	<h4>2018 - 2019</h4>
 	<p>Helped design and lead an interactive presentation on the Rocket Team to over 200 members of the Santa Cruz community. The presentation fulfilled NASA&#39s SLI requirement to cultivate community interest in space exploration.</p>
-	<h3>Market Research Analyst - Pedego Electric Bikes</h3>
-	<h4>2015 - 2016</h4>
-	<p>Collected, analysed and presented data that guided future marketing decisions.</p>
 	<h3>Eagle Scout - Boy Scouts of America</h3>
 	<h4>2008 - 2016</h4>
 	<p>Designed and organized the installation of sapling support structures for a non-profit nursery. Coordinated and ensured safe working conditions during the 144 volunteer hours that the project generated.</p>
