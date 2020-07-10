@@ -5,9 +5,9 @@ html {
 body {
     background-color: #dae0e6;
     color: #191919;
-    margin: 10px;
+    margin: 8px;
     text-align: justify;
-    font-size: 1.2vh;
+    font-size: 1.3vh;
 }
 
 a {
@@ -20,6 +20,7 @@ h1 {
     border-bottom: solid;
     border-width: 1px;
     padding: 1%;
+    font-size: 3.48vh;
 }
 
 h2 {
